@@ -1,0 +1,24 @@
+# Node modules
+package-lock.json
+node_modules
+build
+dist
+package-lock.json
+yarn-lock.json
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+.env
+.cache
+# The development sqlite file
+database/development.sqlite
+
+# Nyc
+.nyc_output
+coverage
+test-reports
+# IDE
+.idea
+.vscode
